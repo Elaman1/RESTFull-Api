@@ -72,7 +72,11 @@ class RecordController extends Controller
 
         // Существование
         (new RecordFilter())->issetRecord($id);
-
+        if (is_null($request->heading) && is_null($request->text) {
+            return response()->json("Do not change", 400);
+        }
+        
+            
 
         // Отправка
         $record = Record::find($id);
