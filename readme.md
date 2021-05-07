@@ -9,4 +9,4 @@ http://localhost:8000/api/add-record?email=admin2@mail.ru&password=admin2@mail.r
 http://localhost:8000/api/record/1
 http://localhost:8000/api/login?email=admin2@mail.ru&password=admin2@mail.ru
 
-все ссылки для работы пунктов можно найти в web/api
+все ссылки для работы пунктов можно найти в routes/api
